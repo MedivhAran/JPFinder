@@ -1,10 +1,39 @@
+# This is a .gitignore file for a Python project
+pycache/
+*.py[cod]
+*.pyo
+*.pyd
+Virtual env
 .venv/
-dist/
+env/
+venv/
+IDE/OS
+
+.vscode/
+.idea/
+.DS_Store
+Build/packaging
+
 build/
-__pycache__/
-*.pyc
+dist/
+*.spec
+App runtime data
+
 data/index.db
 data/cache/
-*.mp4 *.mkv *.avi *.ts
-*.mp3 *.flac *.m4a *.aac *.wav
-*.zip *.7z *.rar
+data/.mp3
+data/.wav
+Large media/binaries
+
+*.mp4
+*.mkv
+*.avi
+*.ts
+*.mp3
+*.flac
+*.m4a
+*.aac
+*.wav
+*.zip
+*.7z
+*.rar
