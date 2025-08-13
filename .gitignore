@@ -1,0 +1,10 @@
+.venv/
+dist/
+build/
+__pycache__/
+*.pyc
+data/index.db
+data/cache/
+*.mp4 *.mkv *.avi *.ts
+*.mp3 *.flac *.m4a *.aac *.wav
+*.zip *.7z *.rar
